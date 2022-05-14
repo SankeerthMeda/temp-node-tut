@@ -1,0 +1,12 @@
+// console.log("hello this is my first node app")
+// console.log(__dirname)
+// const vardha='vardhaa'
+// console.log(module)
+const names=require('./4-names')
+console.log(names)
+const path=require('path')
+console.log(path.sep)
+const filepath=path.join('content','subfolder','/test.txt')
+console.log(filepath)
+const absolute=path.resolve(__dirname,'content','subfolder','test.txt')
+console.log(absolute)
